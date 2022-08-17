@@ -23,8 +23,9 @@ galleryWrapper.insertAdjacentHTML("afterbegin", createItems);
 
 // ____initialization and using library
 
-var lightbox = new SimpleLightbox(".gallery a", {
+let lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
   captionClass: "captions",
+  showCounter: false,
 });
